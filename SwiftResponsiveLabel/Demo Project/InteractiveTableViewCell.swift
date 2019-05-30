@@ -34,7 +34,7 @@ final class InteractiveTableViewCell: UITableViewCell {
 		super.awakeFromNib()
 		
 		responsiveLabel.truncationToken = expandToken
-		responsiveLabel.isUserInteractionEnabled = true
+//        responsiveLabel.isUserInteractionEnabled = true
 
 		// Handle Hashtag Detection
 		let hashTagTapAction = PatternTapResponder(currentAction: { (tappedString) -> (Void) in
